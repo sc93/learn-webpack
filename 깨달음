@@ -1,0 +1,6 @@
+ERROR in multi ./app/index.js dist/bundle.js
+Module not found: Error: Can't resolve 'dist/bundle.js' in 'C:\Users\SC\Desktop\Dev\Webpack\webpack-exam01'
+ @ multi ./app/index.js dist/bundle.js main[1]
+
+
+webpack app/index.js --output dist/bundle.js --mode development
