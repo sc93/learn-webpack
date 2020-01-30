@@ -2,10 +2,19 @@
 // `webpack` command will pick up this config setup by default
 var path = require('path');
 
+// module.exports = {
+//   entry: './app/index.js',
+//   output: {
+//     filename: 'bundle.js',
+//     path: path.resolve(__dirname, 'dist')
+//   }
+// };
+
 module.exports = {
+  mode: 'none',
   entry: './app/index.js',
   output: {
-    filename: 'bundle.js',
+    filename: 'main.js',
     path: path.resolve(__dirname, 'dist')
   }
 };
