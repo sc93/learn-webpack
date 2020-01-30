@@ -1,27 +1,20 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <meta charset="utf-8">
-    <title>Libraries Code Splitting</title>
-</head>
-
-<body>
+    <title>CSS & Libraries Code Splitting</title>
+  </head>
+  <body>
     <header>
-        <h3>Libraries Code Splitting</h3>
+      <h3>CSS Code Splitting</h3>
     </header>
     <div>
-        <label for="p1"><strong>Moment JS : </strong></label>
-        <p class="p1">
-            not yet loaded
-        </p>
-        <label for="p2"><strong>Lodash JS : </strong></label>
-        <p class="p2">
-            not yet loaded
-        </p>
+      <!-- 웹팩 빌드 결과물이 잘 로딩되면 아래 p 태그의 텍스트 색깔이 파란색으로 표시됨 -->
+      <p>
+        This text should be colored with blue after injecting CSS bundle
+      </p>
     </div>
-    <script src="dist/vendor.js"></script>
-    <script src="dist/main.js"></script>
-</body>
-
+    <!-- 웹팩의 빌드 결과물을 로딩하는 스크립트 -->
+    <script src="./dist/bundle.js"></script>
+  </body>
 </html>
