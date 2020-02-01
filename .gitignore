@@ -19,3 +19,5 @@ yarn-error.log*
 *.njsproj
 *.sln
 *.sw?
+webpack-exam04/package.json
+webpack-exam04/package-lock.json
